@@ -1,0 +1,81 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: var(--theme-background);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.formTitle {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.formDescription {
+  color: var(--text-color);
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #0073e6;
+  box-shadow: 0 0 5px rgba(0, 115, 230, 0.5);
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.formButton {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+  background-color: #005bb5;
+}
+
+.formButton:active {
+  transform: scale(0.98);
+}
+
+.formMessage {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.formMessageError {
+  color: red;
+}
+
+.formMessageSuccess {
+  color: #3bff4b;
+}

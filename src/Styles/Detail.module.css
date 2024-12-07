@@ -1,0 +1,34 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: var(--theme-background);
+  text-align: left;
+}
+
+.table th,
+.table td {
+  border: 2px solid #ddd;
+  padding: 10px 15px;
+}
+
+.table th {
+  background-color: var(--theme-background);
+  font-weight: bold;
+}
+
+.table a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}

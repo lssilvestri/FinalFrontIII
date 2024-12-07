@@ -1,0 +1,54 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 80vw;
+  padding: 1rem 0;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navLinks {
+  font-size: 18px;
+}
+
+.navLinks:hover {
+  color: rgba(136, 136, 136, 0.8);
+}
+
+button {
+  background: transparent;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgba(136, 136, 136, 0.2);
+}
+
+.changeIcon {
+  background: none;
+  border: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: inherit;
+}
+
+.changeIcon:hover {
+  opacity: 0.7;
+}

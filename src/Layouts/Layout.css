@@ -1,0 +1,40 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer,
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  background-color: var(--theme-background);
+  color: var(--text-color);
+  padding: 5px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.card-grid {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  max-width: 1200px;
+  box-sizing: border-box;
+}

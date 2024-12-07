@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-light: #f0f0f0;
+  --text-light: black;
+  --background-dark: #303030;
+  --text-dark: white;
+  --theme-light: #ffffff;
+  --theme-dark: #505050;
+}
+
+.light-theme {
+  --background-color: var(--background-light);
+  --text-color: var(--text-light);
+  --theme-background: var(--theme-light);
+}
+
+.dark-theme {
+  --background-color: var(--background-dark);
+  --text-color: var(--text-dark);
+  --theme-background: var(--theme-dark);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(136, 136, 136);
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

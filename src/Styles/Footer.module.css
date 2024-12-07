@@ -1,0 +1,24 @@
+.social {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.social div {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.social div:hover {
+  transform: scale(1.2);
+  color: #000;
+}
+
+footer > p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+.dhlogo img {
+  width: 300px;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-grid p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 2rem;
+}
